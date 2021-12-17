@@ -21,7 +21,7 @@ body {
 }
 
 .row img {
-  flex-basis: 25%;
+  flex-flow: 1 1 25%;
   max-width: 25%;
   padding: 0 4px;
   margin-top: 8px;
@@ -29,14 +29,14 @@ body {
 
 @media screen and (max-width: 800px) {
   .row img{
-    flex-basis: 50%;
+    flex-flow: 1 1 50%;
     max-width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .row img{
-    flex-basis: 100%;
+    flex-flow: 1 1 100%;
     max-width: 100%;
   }
 }
